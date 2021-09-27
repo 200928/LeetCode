@@ -51,7 +51,7 @@ int main()
     print(ans);
 
     // vector<vector<int>> 二维数组的使用
-/*     vector<vector<int>> v;
+    /*     vector<vector<int>> v;
     vector<int> tmp;
     tmp.push_back(1);
     tmp.push_back(2);
@@ -60,5 +60,4 @@ int main()
     tmp.push_back(3);
     tmp.push_back(4);
     v.push_back(tmp); */
-
 }
