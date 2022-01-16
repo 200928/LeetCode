@@ -32,7 +32,7 @@ int candy(vector<int>& ratings)
     int sum = 0;
     vector<int>::iterator it;
     for (it = cur.begin(); it != cur.end(); it++) {
-        sum += *it;
+        sum += (*it);
     }
     // return accumulate(cur.begin(), cur.end(), 0);
     return sum;
